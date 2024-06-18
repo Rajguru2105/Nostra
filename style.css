@@ -1,0 +1,202 @@
+*{
+    font-family:  Poppins, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.offer{
+    height: 45px;
+    background-color: rgb(29, 35, 44);
+    color: rgb(226, 225, 225);
+}
+.navbar {
+    background-color: white;
+}
+.navbar-links {
+    width: 816px;
+    color: rgb(29, 35, 44);
+}
+.navbar h1 {
+    color: rgb(29, 35, 44);
+}
+@media screen and (min-width:750px) and (max-width:1200px){
+    .navbar-links {
+        width: 550px;
+    }
+}
+.slider {
+    height: 500px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.slider-image-container {
+    height: 500px;
+    max-width: 1500px;
+    display: flex;
+    overflow: hidden;
+}
+.slider-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.slider-content button {
+    background-color: white;
+    color: black;
+}
+
+.brand-iteams img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.brand-iteams p {
+    font-size: 30px;
+}
+.brands {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.25rem;
+    max-width: 1500px;
+}
+
+.brand-iteams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service {
+    margin-top: 70px;
+}
+.service-container1 {
+    max-width: 1500px;
+    margin-left: 1.25rem;
+}
+.service-container2 div{
+    width: 349px;
+}
+.A1 img{
+    width: 314px;
+    height: 308px;
+    filter: brightness(0.4);
+    border-radius: 5px;
+}
+.A1{
+    position: relative;
+}
+.new-arrival {
+    width: 1500px;
+    margin-top: 50px;
+}
+.A1 button {
+    width: 168px;
+    height: 53px;
+    border-radius: 10px;
+    position: absolute;
+    top: 175px;
+    margin-left: 75px;
+    background-color: rgb(240, 240, 240);
+} 
+.A1 i {
+    width: 18px;
+    height: 16px;
+}
+.most-wanted {
+    width: 1500px;
+    margin-top: 50px;
+}
+.m1 img {
+    width: 314px;
+    height: 308px;
+    position: relative;
+}
+.m1 {
+    position: relative;
+}
+.m1 .like {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+.sale-overlay {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 45.600px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    margin: 5px;
+}
+.like-button {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    margin-right: 20px;
+}
+.limited-offer {
+    width: 1500px;
+    height: 350px;
+    background-color: rgb(29, 35, 44);
+    padding: 20px;
+    margin-top: 20px;
+}
+.limited-offer-text {
+    padding: 74px;
+    color: rgb(226, 225, 225);
+}
+.limited-offer-text button {
+    width: 172px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(29, 35, 44);
+    margin-top: 12px;
+    font-size: 18px;
+} 
+.news {
+    width: 1500px;
+}
+div input {
+    width: 1250px;
+    height: 43px;
+    border: solid black 2px;;
+}
+div button{
+    width: 175px;
+    height: 51.2px;
+    background-color:  rgb(29, 35, 44);
+    border-radius: 5px;
+}
+.footer {
+    height: 350px;
+    background-color:  rgb(29, 35, 44);
+    margin-top: 20px;
+}
+.footer-container {
+    width: 1450px;
+    height: 250px;
+    padding: 40px;
+}
+.footer-box {
+    color: rgb(226, 225, 225)
+}
+.footer-container p {
+    color: rgb(226, 225, 225);
+}
+@media screen and (max-width:1120px) {
+    .slider-content h1,h4 {
+        font-size: 24px;
+    }
+   
+}
+

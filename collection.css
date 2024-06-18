@@ -1,0 +1,24 @@
+*{
+    font-family: Poppins, sans-serif;
+}
+
+.offer{
+    height: 45px;
+    background-color: rgb(29, 35, 44);
+    color: rgb(226, 225, 225);
+}
+.navbar {
+    background-color: white;
+}
+.navbar-links {
+    width: 816px;
+    color: rgb(29, 35, 44);
+}
+.navbar h1 {
+    color: rgb(29, 35, 44);
+}
+.vertical-line {
+    border: 2px solid black;
+    line-height: 500px;
+    transform: rotate(90deg);
+}
